@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import "./App.css";
 
 const socket = io(
-  "https://ba3d-2001-b011-13-5eb9-689d-2126-bee6-3a71.ngrok-free.app"
+  "https://22fa-2001-b011-13-5eb9-689d-2126-bee6-3a71.ngrok-free.app"
 );
 
 function App() {

@@ -2,9 +2,7 @@ import React, { useState, useEffect } from "react";
 import io from "socket.io-client";
 import "./App.css";
 
-const socket = io(
-  "https://22fa-2001-b011-13-5eb9-689d-2126-bee6-3a71.ngrok-free.app"
-);
+const socket = io("https://chat-server-coral-eight.vercel.app");
 
 function App() {
   const [username, setUsername] = useState("");

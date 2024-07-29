@@ -3,7 +3,9 @@ import io from "socket.io-client";
 import "./App.css";
 
 const socket = io("https://chat-server-coral-eight.vercel.app", {
-  transports: ["websocket", "polling"]
+  path: "/socket.io",
+  transports: ["websocket"],
+  secure: true
 });
 
 function App() {
